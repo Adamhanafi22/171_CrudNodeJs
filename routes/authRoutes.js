@@ -57,5 +57,5 @@ router.post('/logout', (req, res) => {
         res.redirect('/login'); // Arahkan ke halaman login setelah logout
     });
 });
- 
-module.exports = router;  
+
+module.exports = router;
